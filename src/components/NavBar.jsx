@@ -28,6 +28,9 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
+        <div className="call">
+          <a href="callto:08101215372">+(234)8101215372</a>
+        </div>
       </nav>
     </div>
   );
