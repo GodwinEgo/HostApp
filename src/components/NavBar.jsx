@@ -5,26 +5,26 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div>
-      <nav>
+      <nav className="navbar">
         <div className="logo">
           <Link to="/">HOSTIT</Link>
         </div>
         <div className="navList">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <a href="/">Home</a>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <a href="/about">About</a>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <a href="/services">Services</a>
             </li>
             <li>
-              <Link to="/pricing">Pricing</Link>
+              <a href="/pricing">Pricing</a>
             </li>
             <li>
-              <Link to="/contact">Contact Us</Link>
+              <a href="/contact">Contact Us</a>
             </li>
           </ul>
         </div>
